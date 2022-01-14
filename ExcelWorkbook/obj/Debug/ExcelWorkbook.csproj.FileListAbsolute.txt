@@ -33,3 +33,4 @@ D:\workspace\office\ExcelWorkbook\ExcelWorkbook\obj\Debug\ExcelWorkbook.csproj.C
 D:\workspace\office\ExcelWorkbook\ExcelWorkbook\obj\Debug\ExcelWorkbook.dll
 D:\workspace\office\ExcelWorkbook\ExcelWorkbook\obj\Debug\ExcelWorkbook.pdb
 D:\workspace\office\ExcelWorkbook\ExcelWorkbook\obj\Debug\ExcelWorkbook.LoginForm.resources
+D:\workspace\office\ExcelWorkbook\ExcelWorkbook\bin\Debug\ExcelWorkbook.dll.config
