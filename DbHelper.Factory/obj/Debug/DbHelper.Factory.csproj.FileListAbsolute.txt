@@ -1,0 +1,6 @@
+E:\office\ExcelWorkbook\DbHelper.Factory\obj\Debug\DbHelper.Factory.csproj.AssemblyReference.cache
+E:\office\ExcelWorkbook\DbHelper.Factory\obj\Debug\DbHelper.Factory.csproj.CoreCompileInputs.cache
+E:\office\ExcelWorkbook\DbHelper.Factory\bin\Debug\DbHelper.Factory.dll
+E:\office\ExcelWorkbook\DbHelper.Factory\bin\Debug\DbHelper.Factory.pdb
+E:\office\ExcelWorkbook\DbHelper.Factory\obj\Debug\DbHelper.Factory.dll
+E:\office\ExcelWorkbook\DbHelper.Factory\obj\Debug\DbHelper.Factory.pdb

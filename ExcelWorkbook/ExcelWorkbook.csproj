@@ -138,11 +138,6 @@
     <Compile Include="ThisWorkbook.Designer.cs">
       <DependentUpon>ThisWorkbook.Designer.xml</DependentUpon>
     </Compile>
-    <Compile Include="UserDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>UserDataSet.xsd</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="ActionsPaneControl1.resx">
       <DependentUpon>ActionsPaneControl1.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,7 +160,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="app.config" />
     <None Include="ExcelWorkbook.xlsx" />
     <None Include="ExcelWorkbook_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
@@ -177,17 +171,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="UserDataSet.xsc">
-      <DependentUpon>UserDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="UserDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>UserDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="UserDataSet.xss">
-      <DependentUpon>UserDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="ThisWorkbook.Designer.xml">
@@ -200,10 +183,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bg1.jpg" />
+    <None Include="Resources\登录图片.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\登录图片.jpg" />
+    <ProjectReference Include="..\WebApiContext.Entity\WebApiContext.Entity.csproj">
+      <Project>{a3f5616e-8832-4980-b9a4-671bbcf73a17}</Project>
+      <Name>WebApiContext.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApiContext\WebApiContext.DAL.csproj">
+      <Project>{dc93bd23-540c-4596-93b8-62b9c9f56794}</Project>
+      <Name>WebApiContext.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

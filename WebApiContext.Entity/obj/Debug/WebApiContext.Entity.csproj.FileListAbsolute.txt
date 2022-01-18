@@ -1,0 +1,6 @@
+E:\office\ExcelWorkbook\WebApiContext.Entity\bin\Debug\WebApiContext.Entity.dll
+E:\office\ExcelWorkbook\WebApiContext.Entity\bin\Debug\WebApiContext.Entity.pdb
+E:\office\ExcelWorkbook\WebApiContext.Entity\obj\Debug\WebApiContext.Entity.csproj.AssemblyReference.cache
+E:\office\ExcelWorkbook\WebApiContext.Entity\obj\Debug\WebApiContext.Entity.csproj.CoreCompileInputs.cache
+E:\office\ExcelWorkbook\WebApiContext.Entity\obj\Debug\WebApiContext.Entity.dll
+E:\office\ExcelWorkbook\WebApiContext.Entity\obj\Debug\WebApiContext.Entity.pdb

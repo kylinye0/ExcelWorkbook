@@ -43,10 +43,8 @@ namespace ExcelWorkbook
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.userDataSet = new ExcelWorkbook.UserDataSet();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.userDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -165,13 +163,7 @@ namespace ExcelWorkbook
             // 
             // bindingSource1
             // 
-            this.bindingSource1.DataSource = this.userDataSet;
             this.bindingSource1.Position = 0;
-            // 
-            // userDataSet
-            // 
-            this.userDataSet.DataSetName = "UserDataSet";
-            this.userDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // LoginForm
             // 
@@ -197,7 +189,6 @@ namespace ExcelWorkbook
             this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.userDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,6 +209,5 @@ namespace ExcelWorkbook
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.BindingSource bindingSource1;
-        private UserDataSet userDataSet;
     }
 }

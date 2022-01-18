@@ -34,3 +34,10 @@ D:\workspace\office\ExcelWorkbook\ExcelWorkbook\obj\Debug\ExcelWorkbook.dll
 D:\workspace\office\ExcelWorkbook\ExcelWorkbook\obj\Debug\ExcelWorkbook.pdb
 D:\workspace\office\ExcelWorkbook\ExcelWorkbook\obj\Debug\ExcelWorkbook.LoginForm.resources
 D:\workspace\office\ExcelWorkbook\ExcelWorkbook\bin\Debug\ExcelWorkbook.dll.config
+E:\office\ExcelWorkbook\ExcelWorkbook\obj\Debug\ExcelWorkbook.LoginForm.resources
+E:\office\ExcelWorkbook\ExcelWorkbook\bin\Debug\WebApiContext.DAL.dll
+E:\office\ExcelWorkbook\ExcelWorkbook\bin\Debug\WebApiContext.Entity.dll
+E:\office\ExcelWorkbook\ExcelWorkbook\bin\Debug\DbHelper.Factory.dll
+E:\office\ExcelWorkbook\ExcelWorkbook\bin\Debug\WebApiContext.Entity.pdb
+E:\office\ExcelWorkbook\ExcelWorkbook\bin\Debug\WebApiContext.DAL.pdb
+E:\office\ExcelWorkbook\ExcelWorkbook\bin\Debug\DbHelper.Factory.pdb
