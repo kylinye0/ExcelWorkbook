@@ -12,15 +12,38 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <DefineConstants>VSTO40</DefineConstants>
     <OfficeApplication>Excel</OfficeApplication>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
-    <BootstrapperComponentsLocation>HomeSite</BootstrapperComponentsLocation>
     <ProjectGuid>{FE742093-EDF5-42CD-A905-B188C5F2E48D}</ProjectGuid>
     <SolutionID>9f01de43-894e-4334-81c7-37580ecc5707</SolutionID>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PublishUrl>publish\</PublishUrl>
+    <InstallUrl />
+    <TargetCulture>zh-chs</TargetCulture>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>days</UpdateIntervalUnits>
+    <IsWebBootstrapper>False</IsWebBootstrapper>
+    <ProductName>ExcelWorkbook</ProductName>
+    <PublisherName />
+    <SupportUrl />
+    <FriendlyName>ExcelWorkbook</FriendlyName>
+    <OfficeApplicationDescription />
   </PropertyGroup>
   <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.VSTORuntime.4.0">
       <Visible>False</Visible>
-      <ProductName>Microsoft Visual Studio 2010 Tools for Office Runtime %28x86 and x64%29</ProductName>
+      <ProductName>Microsoft Visual Studio 2010 Tools for Office Runtime %28x86 和 x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
@@ -186,13 +209,16 @@
     <None Include="Resources\登录图片.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebApiContext.DAL\WebApiContext.DAL.csproj">
+      <Project>{92c1f5e7-d671-4f7d-b019-12e3fc63dcad}</Project>
+      <Name>WebApiContext.DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WebApiContext.Entity\WebApiContext.Entity.csproj">
       <Project>{a3f5616e-8832-4980-b9a4-671bbcf73a17}</Project>
       <Name>WebApiContext.Entity</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WebApiContext\WebApiContext.DAL.csproj">
-      <Project>{dc93bd23-540c-4596-93b8-62b9c9f56794}</Project>
-      <Name>WebApiContext.DAL</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

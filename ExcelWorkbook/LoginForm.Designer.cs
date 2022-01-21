@@ -29,22 +29,19 @@ namespace ExcelWorkbook
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.pwtextBox1 = new System.Windows.Forms.TextBox();
+            this.usercomboBox = new System.Windows.Forms.ComboBox();
+            this.servcomboBox2 = new System.Windows.Forms.ComboBox();
+            this.dbcomboBox3 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -88,38 +85,38 @@ namespace ExcelWorkbook
             this.checkBox1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.checkBox1.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // pwtextBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(342, 218);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PasswordChar = '*';
-            this.textBox1.Size = new System.Drawing.Size(121, 21);
-            this.textBox1.TabIndex = 4;
+            this.pwtextBox1.Location = new System.Drawing.Point(342, 218);
+            this.pwtextBox1.Name = "pwtextBox1";
+            this.pwtextBox1.PasswordChar = '*';
+            this.pwtextBox1.Size = new System.Drawing.Size(121, 21);
+            this.pwtextBox1.TabIndex = 5;
             // 
-            // comboBox1
+            // usercomboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(342, 180);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 20);
-            this.comboBox1.TabIndex = 5;
+            this.usercomboBox.FormattingEnabled = true;
+            this.usercomboBox.Location = new System.Drawing.Point(342, 180);
+            this.usercomboBox.Name = "usercomboBox";
+            this.usercomboBox.Size = new System.Drawing.Size(121, 20);
+            this.usercomboBox.TabIndex = 4;
             // 
-            // comboBox2
+            // servcomboBox2
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(342, 255);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 20);
-            this.comboBox2.TabIndex = 6;
+            this.servcomboBox2.FormattingEnabled = true;
+            this.servcomboBox2.Location = new System.Drawing.Point(342, 255);
+            this.servcomboBox2.Name = "servcomboBox2";
+            this.servcomboBox2.Size = new System.Drawing.Size(121, 20);
+            this.servcomboBox2.TabIndex = 6;
             // 
-            // comboBox3
+            // dbcomboBox3
             // 
-            this.comboBox3.BackColor = System.Drawing.SystemColors.Window;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(342, 294);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 20);
-            this.comboBox3.TabIndex = 7;
+            this.dbcomboBox3.BackColor = System.Drawing.SystemColors.Window;
+            this.dbcomboBox3.FormattingEnabled = true;
+            this.dbcomboBox3.Location = new System.Drawing.Point(342, 294);
+            this.dbcomboBox3.Name = "dbcomboBox3";
+            this.dbcomboBox3.Size = new System.Drawing.Size(121, 20);
+            this.dbcomboBox3.TabIndex = 7;
             // 
             // label2
             // 
@@ -161,10 +158,6 @@ namespace ExcelWorkbook
             this.label5.TabIndex = 11;
             this.label5.Text = "数据库：";
             // 
-            // bindingSource1
-            // 
-            this.bindingSource1.Position = 0;
-            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -175,10 +168,10 @@ namespace ExcelWorkbook
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.dbcomboBox3);
+            this.Controls.Add(this.servcomboBox2);
+            this.Controls.Add(this.usercomboBox);
+            this.Controls.Add(this.pwtextBox1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -188,7 +181,6 @@ namespace ExcelWorkbook
             this.Text = "登录";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,14 +192,13 @@ namespace ExcelWorkbook
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.TextBox pwtextBox1;
+        private System.Windows.Forms.ComboBox usercomboBox;
+        private System.Windows.Forms.ComboBox servcomboBox2;
+        private System.Windows.Forms.ComboBox dbcomboBox3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.BindingSource bindingSource1;
     }
 }

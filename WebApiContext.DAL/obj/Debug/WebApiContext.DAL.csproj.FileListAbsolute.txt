@@ -1,0 +1,11 @@
+D:\workspace\office\ExcelWorkbook\WebApiContext.DAL\bin\Debug\WebApiContext.DAL.dll
+D:\workspace\office\ExcelWorkbook\WebApiContext.DAL\bin\Debug\WebApiContext.DAL.pdb
+D:\workspace\office\ExcelWorkbook\WebApiContext.DAL\bin\Debug\DbHelper.Factory.dll
+D:\workspace\office\ExcelWorkbook\WebApiContext.DAL\bin\Debug\WebApiContext.Entity.dll
+D:\workspace\office\ExcelWorkbook\WebApiContext.DAL\bin\Debug\DbHelper.Factory.pdb
+D:\workspace\office\ExcelWorkbook\WebApiContext.DAL\bin\Debug\WebApiContext.Entity.pdb
+D:\workspace\office\ExcelWorkbook\WebApiContext.DAL\obj\Debug\WebApiContext.DAL.csproj.AssemblyReference.cache
+D:\workspace\office\ExcelWorkbook\WebApiContext.DAL\obj\Debug\WebApiContext.DAL.csproj.CoreCompileInputs.cache
+D:\workspace\office\ExcelWorkbook\WebApiContext.DAL\obj\Debug\WebApiContext.DAL.csproj.CopyComplete
+D:\workspace\office\ExcelWorkbook\WebApiContext.DAL\obj\Debug\WebApiContext.DAL.dll
+D:\workspace\office\ExcelWorkbook\WebApiContext.DAL\obj\Debug\WebApiContext.DAL.pdb

@@ -4,3 +4,8 @@ E:\office\ExcelWorkbook\WebApiContext.Entity\obj\Debug\WebApiContext.Entity.cspr
 E:\office\ExcelWorkbook\WebApiContext.Entity\obj\Debug\WebApiContext.Entity.csproj.CoreCompileInputs.cache
 E:\office\ExcelWorkbook\WebApiContext.Entity\obj\Debug\WebApiContext.Entity.dll
 E:\office\ExcelWorkbook\WebApiContext.Entity\obj\Debug\WebApiContext.Entity.pdb
+D:\workspace\office\ExcelWorkbook\WebApiContext.Entity\bin\Debug\WebApiContext.Entity.dll
+D:\workspace\office\ExcelWorkbook\WebApiContext.Entity\bin\Debug\WebApiContext.Entity.pdb
+D:\workspace\office\ExcelWorkbook\WebApiContext.Entity\obj\Debug\WebApiContext.Entity.csproj.CoreCompileInputs.cache
+D:\workspace\office\ExcelWorkbook\WebApiContext.Entity\obj\Debug\WebApiContext.Entity.dll
+D:\workspace\office\ExcelWorkbook\WebApiContext.Entity\obj\Debug\WebApiContext.Entity.pdb

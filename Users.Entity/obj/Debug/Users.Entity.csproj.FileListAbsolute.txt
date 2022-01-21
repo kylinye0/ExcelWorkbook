@@ -1,0 +1,5 @@
+D:\workspace\office\ExcelWorkbook\Users.Entity\bin\Debug\Users.Entity.dll
+D:\workspace\office\ExcelWorkbook\Users.Entity\bin\Debug\Users.Entity.pdb
+D:\workspace\office\ExcelWorkbook\Users.Entity\obj\Debug\Users.Entity.csproj.CoreCompileInputs.cache
+D:\workspace\office\ExcelWorkbook\Users.Entity\obj\Debug\Users.Entity.dll
+D:\workspace\office\ExcelWorkbook\Users.Entity\obj\Debug\Users.Entity.pdb

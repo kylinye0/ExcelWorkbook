@@ -52,9 +52,9 @@ namespace WebApiContext.DAL
         }
 
 
-        public void Update(User user)
+        public void Update(User user, string svname, string dbname)
         {
-            using (SqlConnection conn = new SqlConnection(DbHelper.Factory.DbUtils.DbConnString()))
+            using (SqlConnection conn = new SqlConnection(DbHelper.Factory.DbUtils.DbConnString( svname,  dbname)))
             {
                 conn.Open();
                 using (SqlCommand cmd = conn.CreateCommand())
@@ -80,9 +80,9 @@ namespace WebApiContext.DAL
             }
         }
 
-        public User GetDataByUserName(String username)
+        public User GetDataByUserName(String username,string svname, string dbname)
         {
-            DataTable dt = DbHelper.Factory.DbUtils.ExecuteDataTable(SelectCommand + " WHERE UserName = @UserName", new SqlParameter("@UserName", username)).Tables[0];
+            DataTable dt = DbHelper.Factory.DbUtils.ExecuteDataTable(SelectCommand + " WHERE UserName = @UserName", svname, dbname, new SqlParameter("@UserName", username)).Tables[0];
             return DbHelper.Factory.ModelConvertHelper<User>.ConvertToModel(dt);
         }
 

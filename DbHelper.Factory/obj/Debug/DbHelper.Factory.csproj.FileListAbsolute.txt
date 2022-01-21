@@ -4,3 +4,8 @@ E:\office\ExcelWorkbook\DbHelper.Factory\bin\Debug\DbHelper.Factory.dll
 E:\office\ExcelWorkbook\DbHelper.Factory\bin\Debug\DbHelper.Factory.pdb
 E:\office\ExcelWorkbook\DbHelper.Factory\obj\Debug\DbHelper.Factory.dll
 E:\office\ExcelWorkbook\DbHelper.Factory\obj\Debug\DbHelper.Factory.pdb
+D:\workspace\office\ExcelWorkbook\DbHelper.Factory\bin\Debug\DbHelper.Factory.dll
+D:\workspace\office\ExcelWorkbook\DbHelper.Factory\bin\Debug\DbHelper.Factory.pdb
+D:\workspace\office\ExcelWorkbook\DbHelper.Factory\obj\Debug\DbHelper.Factory.csproj.CoreCompileInputs.cache
+D:\workspace\office\ExcelWorkbook\DbHelper.Factory\obj\Debug\DbHelper.Factory.dll
+D:\workspace\office\ExcelWorkbook\DbHelper.Factory\obj\Debug\DbHelper.Factory.pdb
